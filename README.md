@@ -29,7 +29,7 @@ Algumas tecnologias que são usadas nesse projeto.
 Usando npm:
 
 ```
-TODO
+npx create-next-app -e https://github.com/apteles/boilerplate-nextjs
 ```
 
 Usando yarn:
