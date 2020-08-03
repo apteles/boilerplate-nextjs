@@ -1,30 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Boilerplate NextJs
 
-## Getting Started
+![ci](https://github.com/apteles/boilerplate-nextjs/workflows/ci/badge.svg)
 
-First, run the development server:
+Boilerplate é um stater criado no curso **React Avançado** no qual foi preparado toda uma estrutura base para iniciar novos projetos.
 
-```bash
-npm run dev
-# or
-yarn dev
+![Boilerplate NextJs](./docs/images/boilerplate-nextjs.png)
+
+# Motivação
+
+Sempre que vai iniciar uma projeto em NextJS apesar de já vir várias coisas já pré configurada, ainda precisamos configurar ferramentas adicionais
+para ajudar no desenvolvimento tal como ferramentas de testes, linters, documentação, estrutura de pastas e etc. Com isso em vista
+o autor do curso teve a saca de criar um boilerplate no qual será útil para os projetos criados o curso e para futuros projetos que virá surgir.
+
+# Tecnologias
+
+Algumas tecnologias que são usadas nesse projeto.
+
+- [NextJS]().
+- [Jest]().
+- [Typescript]().
+- [Styled Components]().
+- [Storybook]().
+- [Eslint]().
+- [Prettier]().
+
+# Como usar esse projeto
+
+Usando npm:
+
+```
+TODO
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usando yarn:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+yarn create next-app -e https://github.com/apteles/boilerplate-nextjs
+```
 
-## Learn More
+# Documentação
 
-To learn more about Next.js, take a look at the following resources:
+Nesse projeto foi utilizado **storybook**. Para um preview execute o comando `yarn storybook`. Veja um preview:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![ ](./docs/images/ezgif.com-optimize.gif)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Documentação de como utilizar a ferramenta veja [AQUI](https://storybook.js.org/docs/basics/introduction/).
 
-## Deploy on Vercel
+# Testes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Pré configurado, temos o `jest` em conjunto com `React Test Library`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Executando os testes:
+
+```
+❯ yarn test
+yarn run v1.21.1
+$ jest
+ PASS  src/components/Main/test.tsx
+  <Main/>
+    ✓ should render the heading (134 ms)
+    ✓ should render the colors correctly (24 ms)
+...
+```
+
+Documentação de como utilizar a ferramenta [RTL](https://testing-library.com/docs/intro) e [Jest](https://jestjs.io/docs/en/getting-started).
+
+## Licença
+
+![LICENSE](https://img.shields.io/badge/license-MIT-%23F8952D)
